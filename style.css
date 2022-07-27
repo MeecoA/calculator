@@ -1,6 +1,15 @@
 *{
     font-family: monospace;
 }
+body{
+    background-color: darkgrey;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 #calcuBody{
     width: 500px;
     background-color: black;
@@ -88,3 +97,9 @@
     font-size: 50px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: larger;
+}
