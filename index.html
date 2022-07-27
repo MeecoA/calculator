@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title> 
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div id="main">
+        <div id="calcuBody">
+            <div id="mainScreen">
+                <div id="secondNum"></div> 
+                <div id="firstNum">0</div>
+            </div>
+            <div id="numPad">
+                <button class="clear button" id="clearBtn">C</button>
+                <button class="delete button" id="deleteBtn"> &#8592;</button>
+                <button class="operator button" data-operator="">/</button>
+                <button class="operator button" data-operator>x</button>
+                <button class="button" data-number>7</button>
+                <button class="button" data-number>8</button>
+                <button class="button" data-number>9</button>
+                <button class="operator button" data-operator>+</button>
+                <button class="button" data-number>4</button>
+                <button class="button" data-number>5</button>
+                <button class="button" data-number>6</button>
+                <button class="operator button" data-operator>-</button>
+                <button class="button" data-number>1</button>
+                <button class="button" data-number>2</button>
+                <button class="button" data-number>3</button>
+                <button class="point button" id="pointBtn">.</button>
+            </div>
+            <div id="bellowbuttons">
+                <button id="zeroBtn" class="button" data-number="">0</button>
+                <button id="equalBtn" class="button" id="equalBtn">=</button>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

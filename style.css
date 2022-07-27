@@ -1,0 +1,90 @@
+*{
+    font-family: monospace;
+}
+#calcuBody{
+    width: 500px;
+    background-color: black;
+    border-radius: 20px;
+  
+}
+#mainScreen{
+    height: 150px;
+    padding: 20px;
+}
+#firstNum{
+    height: 50px;
+    font-size: 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    color: white;
+}
+#secondNum{
+    height: 50px;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    color: white;
+}
+#numPad{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    
+}
+.button{
+    height: 125px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 75px;
+    border: none;
+}
+.button:hover{
+    background-color: darkgray;
+
+}   
+.button:active{
+    background-color: gray;
+}
+
+#bellowbuttons{
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+}
+#zeroBtn{
+    width: 250px;
+   
+}
+#equalBtn{
+    width: 250px;
+    background-color: orangered;
+}
+#equalBtn:hover{
+    /* background-color: orange; */
+    opacity: 0.8;
+}
+#equalBtn:active{
+    /* background-color: orange; */
+    background-color: darkorange;
+}
+.operator{
+    color:orangered;
+    font-size: 50px;
+}
+.point{
+    font-size: 50px;
+}
+.clear{
+    color:turquoise;
+    font-size: 50px;
+}
+.delete{
+    color:turquoise;
+    font-size: 50px;
+}
+
